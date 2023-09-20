@@ -1,0 +1,43 @@
+body{
+    background: black;
+
+}
+h1{
+margin:20px;
+padding: 20px;
+position:relative;
+text-align: center;
+color: antiquewhite;
+}
+.img{
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+   }
+div li{
+    color: whitesmoke;
+    padding:10px;
+    margin: 20px;
+    }
+    .zoom-wrapper{
+        height: 200px;
+        overflow: hidden;
+        border-radius: 16px;
+    }
+  
+.zoom-wrapper img{
+    object-fit:cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+.zoom-wrapper:hover img {
+    transform: scale(1.5);
+}
+
+*{
+    text-align: left;
+    font-family: 'IBM Plex Mono', monospace;
+font-family: 'Nunito', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+}
